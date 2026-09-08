@@ -1,3 +1,6 @@
+# A Python command-line game where users try to guess a randomly generated number between 1 and 100. Includes high/low hints, attempt tracking, loops, conditionals, and user input handling.
+
+
 import random
 
 number = random.randint(1, 100)

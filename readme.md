@@ -100,7 +100,7 @@ A CLI application for managing personal expenses.
 * Loops
 * Conditions
 * `enumerate()`
-* `sum()` / accumulation
+* Accumulation
 
 ---
 
@@ -161,15 +161,8 @@ A command-line banking application that simulates basic banking operations.
 * Deposit money
 * Withdraw money
 * Check individual account balance
-* Exit the application
 * Low-balance validation
 * Account number-based searching
-
-**Account Information Includes:**
-
-* Account holder name
-* Account number
-* Account balance
 
 **Concepts Used:**
 
@@ -180,6 +173,39 @@ A command-line banking application that simulates basic banking operations.
 * `for...else`
 * User Input
 * Type Conversion
+* Data Searching
+* Data Modification
+
+---
+
+### 9. Contact Management System
+
+A command-line application for managing contact information.
+
+**Features:**
+
+* Add contacts
+* View all contacts
+* Search contacts by phone number
+* Update contact information
+* Delete contacts
+* Exit the application
+
+**Contact Information Includes:**
+
+* Name
+* Phone number
+* Email
+
+**Concepts Used:**
+
+* Lists
+* Dictionaries
+* Loops
+* Conditions
+* `enumerate()`
+* `for...else`
+* CRUD operations
 * Data Searching
 * Data Modification
 
@@ -196,10 +222,11 @@ These projects are part of my practical Python learning journey. They are design
 
 ## 📈 Progress
 
-**Completed: 8 / 13 Projects**
+**Completed: 9 / 13 Projects**
 
 * 🟢 Easy Projects: **4 / 4**
 * 🟡 Medium Projects: **4 / 4**
 * 🔴 Advanced Projects: **0 / 5**
+* ⭐ Bonus Projects: **1 completed**
 
-Next: **Advanced Student Management System**
+Next: **Advanced OOP**

@@ -171,6 +171,41 @@ A Python command-line library management application that allows users to manage
 
 ---
 
+## 7. Employee Management System 👨‍💼
+
+A Python command-line Employee Management System that allows users to manage employee records, including adding, viewing, searching, updating, and removing employees.
+
+### Features
+
+* Add new employees
+* Store employee name, age, department, and salary
+* View all employees
+* Search employees by name
+* Update employee information
+* Remove employees
+* Interactive menu
+* Handles invalid menu choices
+* Continuous operation until Exit
+
+### Concepts Practiced
+
+* Lists
+* Dictionaries
+* `.append()`
+* `.remove()`
+* `enumerate()`
+* `for` loops
+* `while` loops
+* `if / elif / else`
+* `for...else`
+* `break`
+* User input
+* Type conversion
+* Updating dictionary values
+* Basic CRUD operations
+
+---
+
 ## Technologies
 
 * **Python**

@@ -82,6 +82,95 @@ A command-line To-Do List application that allows users to manage tasks directly
 
 ---
 
+## 4. Student Marks Calculator 🎓
+
+A Python command-line application that collects a student's marks in multiple subjects and calculates the total marks, percentage, and individual subject grades.
+
+### Features
+
+* Takes student's name as input
+* Accepts marks for five subjects
+* Calculates total marks
+* Calculates overall percentage
+* Calculates individual subject grades
+* Uses a reusable grading function
+
+### Concepts Practiced
+
+* Functions
+* Lists
+* `sum()`
+* User input
+* Type conversion
+* Conditional statements
+* `return`
+* Arithmetic operations
+* Function parameters
+
+---
+
+## 5. Expense Tracker 💰
+
+A Python command-line expense tracking application that allows users to add, view, calculate, and remove expenses.
+
+### Features
+
+* Add new expenses
+* Store expense name and amount
+* View all expenses
+* Calculate total expenses
+* Remove an expense
+* Interactive menu
+* Continuous operation until Exit
+
+### Concepts Practiced
+
+* Lists
+* Dictionaries
+* `.append()`
+* `.pop()`
+* `enumerate()`
+* `while` loops
+* `if / elif / else`
+* User input
+* Type conversion
+* Basic CRUD operations
+
+---
+
+## 6. Library Management System 📚
+
+A Python command-line library management application that allows users to manage books and track their availability.
+
+### Features
+
+* Add new books
+* Store book name and author
+* View all books
+* Check book availability
+* Borrow books
+* Return borrowed books
+* Remove books
+* Interactive menu
+* Continuous operation until Exit
+
+### Concepts Practiced
+
+* Lists
+* Dictionaries
+* Boolean values (`True / False`)
+* `.append()`
+* `.pop()`
+* List indexing
+* `enumerate()`
+* `while` loops
+* `if / elif / else`
+* User input
+* Updating dictionary values
+* Basic CRUD operations
+
+---
+
 ## Technologies
 
 * **Python**

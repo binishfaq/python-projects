@@ -1,7 +1,6 @@
 print("======== Expense Tracker ========")
 
 expenses = []
-
 while True:
     print("1: Add Expense")
     print("2: View Expense")
@@ -27,9 +26,7 @@ while True:
         totalsum = 0
         for expense in expenses:
             totalsum = totalsum + expense["Amount"]
-
         print("Total Expense: ", totalsum)
-
     elif choice == "4":
         remove = int(input("Enter expense to remove: "))
         expenses.pop(remove - 1)

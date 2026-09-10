@@ -1,217 +1,205 @@
-# Python Beginner Projects
+# 🐍 Python Beginner Projects
 
-A collection of beginner-level Python projects developed to strengthen core Python programming concepts through practical, hands-on development.
+A collection of Python projects developed while learning and strengthening Python programming fundamentals through practical implementation.
 
----
+## 📚 Projects
 
-## 1. Number Guessing Game 🎯
+### 1. Number Guessing Game
 
-A Python command-line game where the computer generates a random number between 1 and 100, and the user attempts to guess it.
+A simple game where the user tries to guess a randomly generated number.
 
-### Features
-
-* Generates a random number using Python's `random` module
-* Provides **Too High** and **Too Low** hints
-* Tracks the number of attempts
-* Continues until the correct number is guessed
-* Handles user input through the command line
-
-### Concepts Practiced
+**Concepts Used:**
 
 * Variables
-* `input()`
-* Type conversion
-* `if / elif / else`
-* `while` loops
-* `break`
-* Functions
-* Python `random` module
+* Input/Output
+* Conditions
+* Loops
+* `random` module
 
 ---
 
-## 2. Simple Calculator 🧮
+### 2. Simple Calculator
 
-A Python command-line calculator that performs basic arithmetic operations based on the operator selected by the user.
+A command-line calculator that performs basic arithmetic operations.
 
-### Features
+**Features:**
 
 * Addition
 * Subtraction
 * Multiplication
 * Division
 * Division-by-zero handling
-* Invalid operator handling
-* Implemented using a reusable function
 
-### Concepts Practiced
+**Concepts Used:**
 
 * Functions
-* User input
-* Type conversion
-* Conditional statements
-* Arithmetic operators
-* Nested `if` statements
-* Error handling logic
+* Conditions
+* User Input
+* Arithmetic Operators
 
 ---
 
-## 3. To-Do List CLI 📝
+### 3. To-Do List CLI
 
-A command-line To-Do List application that allows users to manage tasks directly from the terminal.
+A command-line task management application.
 
-### Features
+**Features:**
 
-* Add new tasks
-* View all tasks
+* Add tasks
+* View tasks
 * Remove tasks
-* Number tasks using `enumerate()`
-* Interactive menu
-* Continuous operation until the user chooses Exit
+* Exit application
 
-### Concepts Practiced
+**Concepts Used:**
 
 * Lists
-* `.append()`
-* `.pop()`
-* `while` loops
-* `if / elif / else`
-* User input
+* Loops
+* Conditions
 * `enumerate()`
-* `break`
-* Basic CRUD-style task management
+* User Input
 
 ---
 
-## 4. Student Marks Calculator 🎓
+### 4. Student Marks Calculator
 
-A Python command-line application that collects a student's marks in multiple subjects and calculates the total marks, percentage, and individual subject grades.
+A program that calculates student marks, percentage, and individual subject grades.
 
-### Features
+**Features:**
 
-* Takes student's name as input
-* Accepts marks for five subjects
-* Calculates total marks
-* Calculates overall percentage
-* Calculates individual subject grades
-* Uses a reusable grading function
+* Student information
+* Subject marks
+* Total marks
+* Percentage calculation
+* Subject-wise grading
 
-### Concepts Practiced
+**Concepts Used:**
 
 * Functions
 * Lists
 * `sum()`
-* User input
-* Type conversion
-* Conditional statements
-* `return`
-* Arithmetic operations
-* Function parameters
+* Conditions
+* User Input
 
 ---
 
-## 5. Expense Tracker 💰
+### 5. Expense Tracker
 
-A Python command-line expense tracking application that allows users to add, view, calculate, and remove expenses.
+A CLI application for managing personal expenses.
 
-### Features
+**Features:**
 
-* Add new expenses
-* Store expense name and amount
-* View all expenses
+* Add expenses
+* View expenses
 * Calculate total expenses
-* Remove an expense
-* Interactive menu
-* Continuous operation until Exit
+* Remove expenses
 
-### Concepts Practiced
+**Concepts Used:**
 
 * Lists
 * Dictionaries
-* `.append()`
-* `.pop()`
+* Loops
+* Conditions
 * `enumerate()`
-* `while` loops
-* `if / elif / else`
-* User input
-* Type conversion
-* Basic CRUD operations
+* `sum()` / accumulation
 
 ---
 
-## 6. Library Management System 📚
+### 6. Library Management System
 
-A Python command-line library management application that allows users to manage books and track their availability.
+A command-line library system for managing books and their availability.
 
-### Features
+**Features:**
 
-* Add new books
-* Store book name and author
-* View all books
-* Check book availability
+* Add books
+* View books
 * Borrow books
-* Return borrowed books
+* Return books
 * Remove books
-* Interactive menu
-* Continuous operation until Exit
 
-### Concepts Practiced
+**Concepts Used:**
 
 * Lists
 * Dictionaries
-* Boolean values (`True / False`)
-* `.append()`
-* `.pop()`
-* List indexing
-* `enumerate()`
-* `while` loops
-* `if / elif / else`
-* User input
-* Updating dictionary values
-* Basic CRUD operations
+* Loops
+* Conditions
+* `for...else`
+* Boolean values
 
 ---
 
-## 7. Employee Management System 👨‍💼
+### 7. Employee Management System
 
-A Python command-line Employee Management System that allows users to manage employee records, including adding, viewing, searching, updating, and removing employees.
+A CLI-based employee management system for storing and managing employee information.
 
-### Features
+**Features:**
 
-* Add new employees
-* Store employee name, age, department, and salary
-* View all employees
-* Search employees by name
+* Add employees
+* View employees
+* Search employees
 * Update employee information
 * Remove employees
-* Interactive menu
-* Handles invalid menu choices
-* Continuous operation until Exit
 
-### Concepts Practiced
+**Concepts Used:**
 
 * Lists
 * Dictionaries
-* `.append()`
-* `.remove()`
+* Loops
+* Conditions
 * `enumerate()`
-* `for` loops
-* `while` loops
-* `if / elif / else`
 * `for...else`
-* `break`
-* User input
-* Type conversion
-* Updating dictionary values
-* Basic CRUD operations
 
 ---
 
-## Technologies
+### 8. Banking System
 
-* **Python**
-* Python Standard Library
-* Command-Line Interface (CLI)
+A command-line banking application that simulates basic banking operations.
 
-## Purpose
+**Features:**
 
-These projects are part of my Python learning journey and are designed to build a strong programming foundation before progressing toward advanced Python, data analysis, NumPy, Pandas, machine learning, and artificial intelligence.
+* Create bank accounts
+* View accounts
+* Deposit money
+* Withdraw money
+* Check individual account balance
+* Exit the application
+* Low-balance validation
+* Account number-based searching
+
+**Account Information Includes:**
+
+* Account holder name
+* Account number
+* Account balance
+
+**Concepts Used:**
+
+* Lists
+* Dictionaries
+* Loops
+* Conditions
+* `for...else`
+* User Input
+* Type Conversion
+* Data Searching
+* Data Modification
+
+## 🛠️ Technologies
+
+* Python 3
+* VS Code
+* PowerShell
+* Git & GitHub
+
+## 🎯 Purpose
+
+These projects are part of my practical Python learning journey. They are designed to strengthen programming fundamentals through real-world command-line applications before moving toward advanced Python, data analysis, and AI/ML development.
+
+## 📈 Progress
+
+**Completed: 8 / 13 Projects**
+
+* 🟢 Easy Projects: **4 / 4**
+* 🟡 Medium Projects: **4 / 4**
+* 🔴 Advanced Projects: **0 / 5**
+
+Next: **Advanced Student Management System**

@@ -2,231 +2,169 @@
 
 A collection of Python projects developed while learning and strengthening Python programming fundamentals through practical implementation.
 
+---
+
 ## 📚 Projects
 
 ### 1. Number Guessing Game
 
-A simple game where the user tries to guess a randomly generated number.
-
-**Concepts Used:**
-
-* Variables
-* Input/Output
-* Conditions
-* Loops
-* `random` module
-
----
+* Random number generation
+* User input
+* Loops and conditions
+* Attempt tracking
 
 ### 2. Simple Calculator
 
-A command-line calculator that performs basic arithmetic operations.
-
-**Features:**
-
-* Addition
-* Subtraction
-* Multiplication
-* Division
-* Division-by-zero handling
-
-**Concepts Used:**
-
 * Functions
-* Conditions
-* User Input
-* Arithmetic Operators
-
----
+* User input
+* Arithmetic operations
+* Conditional statements
+* Error handling
 
 ### 3. To-Do List CLI
 
-A command-line task management application.
-
-**Features:**
-
-* Add tasks
-* View tasks
-* Remove tasks
-* Exit application
-
-**Concepts Used:**
-
 * Lists
 * Loops
-* Conditions
-* `enumerate()`
-* User Input
-
----
+* CRUD operations
+* User input
 
 ### 4. Student Marks Calculator
-
-A program that calculates student marks, percentage, and individual subject grades.
-
-**Features:**
-
-* Student information
-* Subject marks
-* Total marks
-* Percentage calculation
-* Subject-wise grading
-
-**Concepts Used:**
 
 * Functions
 * Lists
 * `sum()`
-* Conditions
-* User Input
-
----
+* Percentage calculation
+* Grade calculation
 
 ### 5. Expense Tracker
 
-A CLI application for managing personal expenses.
-
-**Features:**
-
-* Add expenses
-* View expenses
-* Calculate total expenses
-* Remove expenses
-
-**Concepts Used:**
-
-* Lists
-* Dictionaries
-* Loops
-* Conditions
+* Lists and dictionaries
+* Add/view/remove expenses
+* Total expense calculation
 * `enumerate()`
-* Accumulation
-
----
 
 ### 6. Library Management System
 
-A command-line library system for managing books and their availability.
-
-**Features:**
-
-* Add books
-* View books
-* Borrow books
-* Return books
-* Remove books
-
-**Concepts Used:**
-
-* Lists
-* Dictionaries
-* Loops
-* Conditions
-* `for...else`
-* Boolean values
-
----
+* Lists and dictionaries
+* Add/view/remove books
+* Borrow and return functionality
+* Book availability tracking
 
 ### 7. Employee Management System
 
-A CLI-based employee management system for storing and managing employee information.
-
-**Features:**
-
-* Add employees
-* View employees
-* Search employees
-* Update employee information
-* Remove employees
-
-**Concepts Used:**
-
-* Lists
-* Dictionaries
-* Loops
-* Conditions
-* `enumerate()`
-* `for...else`
-
----
+* CRUD operations
+* Search/update/delete employees
+* Lists and dictionaries
+* Salary and department management
 
 ### 8. Banking System
 
-A command-line banking application that simulates basic banking operations.
-
-**Features:**
-
-* Create bank accounts
-* View accounts
-* Deposit money
-* Withdraw money
-* Check individual account balance
-* Low-balance validation
-* Account number-based searching
-
-**Concepts Used:**
-
-* Lists
-* Dictionaries
-* Loops
-* Conditions
-* `for...else`
-* User Input
-* Type Conversion
-* Data Searching
-* Data Modification
-
----
+* Account creation
+* Deposit and withdrawal
+* Balance checking
+* Account searching
+* Conditional validation
 
 ### 9. Contact Management System
 
-A command-line application for managing contact information.
-
-**Features:**
-
-* Add contacts
-* View all contacts
-* Search contacts by phone number
-* Update contact information
-* Delete contacts
-* Exit the application
-
-**Contact Information Includes:**
-
-* Name
-* Phone number
-* Email
-
-**Concepts Used:**
-
-* Lists
-* Dictionaries
-* Loops
-* Conditions
-* `enumerate()`
-* `for...else`
+* Add/view/search contacts
+* Update and delete contacts
+* Lists and dictionaries
 * CRUD operations
-* Data Searching
-* Data Modification
+
+### 10. Advanced Student Management System
+
+* Object-Oriented Programming
+* Classes and objects
+* Encapsulation
+* `@property` and setter
+* `@staticmethod`
+* `@classmethod`
+* `__str__()`
+* CRUD operations
+* Marks validation
+* Percentage and grade calculation
+* JSON data persistence
+* Save and load student records
+
+---
+
+## 🚀 Advanced Projects
+
+### 11. Inventory Management System — Optional
+
+* Product management
+* Stock tracking
+* Add/update/delete products
+* Search products
+* JSON persistence
+* OOP
+
+### 12. E-Commerce Backend Simulation — Next
+
+* Product management
+* User management
+* Shopping cart
+* Orders
+* Stock management
+* OOP
+* JSON persistence
+* Validation
+
+### 13. AI/ML Dataset Management System — Next
+
+* Dataset management
+* Data records
+* Searching and filtering
+* Basic statistics
+* CSV/JSON handling
+* OOP
+* Preparing data for NumPy/Pandas and AI/ML
+
+---
 
 ## 🛠️ Technologies
 
 * Python 3
 * VS Code
 * PowerShell
+* JSON
 * Git & GitHub
+
+---
 
 ## 🎯 Purpose
 
-These projects are part of my practical Python learning journey. They are designed to strengthen programming fundamentals through real-world command-line applications before moving toward advanced Python, data analysis, and AI/ML development.
+These projects are being developed to strengthen Python programming through practical implementation before moving deeper into:
+
+* Data Analysis
+* NumPy
+* Pandas
+* Matplotlib
+* Machine Learning
+* Artificial Intelligence
+
+---
 
 ## 📈 Progress
 
-**Completed: 9 / 13 Projects**
+**Completed: 10 / 13 Projects**
 
-* 🟢 Easy Projects: **4 / 4**
-* 🟡 Medium Projects: **4 / 4**
-* 🔴 Advanced Projects: **0 / 5**
-* ⭐ Bonus Projects: **1 completed**
+* Easy Projects: **4 / 4** ✅
+* Medium Projects: **4 / 4** ✅
+* Advanced Projects: **1 / 3** 🔄
+* Bonus Project: **1 completed** ✅
 
-Next: **Advanced OOP**
+### Current Plan
+
+**Completed:**
+1–10 ✅
+
+**Next:**
+12. E-Commerce Backend Simulation 🛒
+13. AI/ML Dataset Management System 🤖
+
+**Optional:**
+11. Inventory Management System
+
+After completing Projects **12 and 13**, the focus will shift toward **Data Analysis → NumPy → Pandas → Matplotlib → AI/ML**.

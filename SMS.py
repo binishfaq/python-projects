@@ -127,7 +127,6 @@ while True:
             print("Student added successfully!")
         else:
             print("Invalid Marks")
-
     elif choice == "2":
         if len(students) == 0:
             print("No student found")
@@ -137,7 +136,6 @@ while True:
 
     elif choice == "3":
         student_name = input("Enter Student Name: ")
-
         for student in students:
             if student.name == student_name:
                 print(student.display_info())
@@ -147,7 +145,6 @@ while True:
 
     elif choice == "4":
         student_name = input("Enter Student Name: ")
-
         for student in students:
             if student.name == student_name:
                 student.name = input("Enter new Name: ")
@@ -161,7 +158,6 @@ while True:
 
     elif choice == "5":
         student_name = input("Enter Student Name: ")
-
         for student in students:
             if student.name == student_name:
                 students.remove(student)
@@ -172,7 +168,6 @@ while True:
 
     elif choice == "6":
         student_name = input("Enter Student Name: ")
-
         for student in students:
             if student.name == student_name:
                 print("Student Marks:", student.marks)
@@ -181,10 +176,8 @@ while True:
                 break
         else:
             print("No Student found")
-
     elif choice == "7":
         student_name = input("Enter Student Name: ")
-
         for student in students:
             if student.name == student_name:
                 print("Student Marks:", student.marks)
@@ -195,7 +188,6 @@ while True:
                 break
         else:
             print("No Student found")
-
     elif choice == "8":
         save_students()
         print("Exiting Student Management System...")
